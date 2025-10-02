@@ -1,0 +1,15 @@
+@import 'tailwindcss';
+
+:root {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-optical-sizing: auto;
+  color-scheme: dark light;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+}
